@@ -4,4 +4,4 @@ head -n 18 coin-toss.txt | tr -d '\n' > flag.txt
 cat flag.txt
 tail -n 19 coin-toss.txt | tr -d '\n' >>flag.txt
 cat flag.txt
-FS{heads_or_tails-I_rather_pick_both}
+
