@@ -1,0 +1,15 @@
+This compacted-flag seems very interesting, but I am not quite sure what it is. Whatever it is - it sure seems tightly packed. You can find this file on your VM in ~/labs/040-tools, and it is also available on the shell server in /problems/tools--flag-compactor_0_b166579a60e2f5c4b4c795fe682862fb.
+
+file compacted-flag
+unzip compacted-flag
+file flag4
+man unrar
+unrar flag4
+unrar e flag4
+file flag3
+man tar
+tar -xvf flag3
+file flag2
+mv flag2 flag2.gz
+cat flag2
+FS{so_many_archiving_utilities}
