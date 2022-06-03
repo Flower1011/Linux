@@ -1,0 +1,10 @@
+The site http://shell.fullstackacademy.com:60031 only accepts HTTP GET requests. Send it a request that includes all three of the below paramater:value pairs to get the flag.
+
+usertype:admin
+school:fullstack cyber bootcamp
+access-level:super duper top secret
+
+I used https://hoppscotch.io/ to send a GET request and input the Parameter and Value pairs in the designated areas.
+I recieved RlN7cmVhbGx5X3Nob3VsZF9ub3RfdXNlX3F1ZXJ5X3BhcmFtc190b19hdXRoZW50aWNhdGV9
+and decoded from base64
+echo "RlN7cmVhbGx5X3Nob3VsZF9ub3RfdXNlX3F1ZXJ5X3BhcmFtc190b19hdXRoZW50aWNhdGV9" | base64 -d  
