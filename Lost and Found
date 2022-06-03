@@ -4,4 +4,4 @@ I lost my flag, but it should be easy to find. It is the only file within lost-a
 cd lost-and-found
 find -size 223c
 cat ./maybehere07/.file2
-FS{DXjZPULLxYr17uwoI01bNLQbtFemEgo7+2n5}
+
