@@ -1,0 +1,15 @@
+This is a bonus problem.
+It is quiet... for now. I am so afraid that noise will come back. It seems to reappear everytime I [re]start my day. Can you ensure I am rid of it for good? Run quiet-for-good to test if the noise is gone ... for good.
+
+cd ..
+cd ..
+ls -a
+nano .bashrc
+#buzz init
+pgrep buzz
+ps aux | grep buzz
+which buzz
+sudo mv /usr/sbin/buzz /usr/sbin/buzz.txt
+chmod +x quiet-for-good
+sudo rm /usr/sbin/buzz.txt
+./quiet-for-good
