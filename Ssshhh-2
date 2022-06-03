@@ -1,0 +1,18 @@
+Now that the ssh server is running, let's make it's login more secure. Modify the ssh config to allow only key-based authentication (no password). Create a public/private key pair named ssshhh_rsa with a blank passphrase (make sure the private key is accessable in ~/.ssh). Finally, add the public key to kali's authorized_keys. Once complete, run ssshhh-2 to verify these steps and receive the flag.
+
+Note: You should run ssshhh-2 as root but, from whatever user you run this binary, that user must have the ssshhh_rsa private key in ~/.ssh.
+
+Disable SSH password authentication in /etc/ssh/sshd_config change the following options to no:
+       ChallengeResponseAuthentication
+       PasswordAuthentication
+       UsePAM
+Use generate keys with ssh-keygen.
+sudo ssh-keygen -t rsa
+enter ssshhh_rsa for the name
+leave passphrase blank by pressing enter only
+cat ssshhh_rsa.pub >> ~/.ssh/authorized_hosts
+mv ssshhh_rsa ~/.ssh
+wget URL
+chmod u+x ssshhh-2
+su root
+./ssshhh-2
