@@ -1,0 +1,7 @@
+Lost and Found
+I lost my flag, but it should be easy to find. It is the only file within lost-and-found that is exactly 223 bytes in size. Can you help me find it? You can find this directory on your VM in ~/labs/020-search, and this problem is also available on the shell server in /problems/search--lost-and-found_0_0e9cb9fb4d6ab17ffccc1ba46585080d.
+
+cd lost-and-found
+find -size 223c
+cat ./maybehere07/.file2
+FS{DXjZPULLxYr17uwoI01bNLQbtFemEgo7+2n5}
