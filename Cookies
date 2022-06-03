@@ -1,0 +1,5 @@
+This site loves cookies and wants to know how many you would like to eat. Send a request (HTTP GET or POST) that includes a cookie named amount with the value of how many cookies you like to eat to get the flag.
+
+curl --cookie "amount=2" http://shell.fullstackacademy.com:60030/  
+Flag: RlN7SV93aWxsX3Rha2VfdHdvfQ==
+echo "RlN7SV93aWxsX3Rha2VfdHdvfQ==" | base64 -d  
