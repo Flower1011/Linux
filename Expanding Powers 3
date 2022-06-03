@@ -1,0 +1,11 @@
+This is a bonus problem.
+Neo: What are you trying to tell me? That I can dodge bullets?
+Morpheus: No, Neo. I'm trying to tell you that when you're ready, you won't have to...
+Continue to help neo expand his powers. This time, he wants to share his powers with the rest of the group. Modify expanding-powers-3 so it's owner is neo and group is the-resistance. Also, make the world have no permissions, the group able to execute only, and the owner (neo) able to read, write, and execute the binary. In addition, help neo share his power with the world by modifying the permissions such that anyone who executes the binary is able to execute it as if they were (act like they are) the owner neo, even when it is run by another user. Once this is done, run expanding-powers-3 to get the flag.
+
+sudo chown neo expanding-powers-3
+sudo chgrp the-resistance expanding-powers-3
+ls -l
+sudo chmod 4710 expanding-powers-3
+sudo ./expanding-powers-3
+FS{dodge_bullets?oh_you_can_do_so_much_more_4F3618}
