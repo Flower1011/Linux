@@ -1,0 +1,9 @@
+To solve this challenge, generate the MD5, SHA1, SHA256, SHA512 hashes of this file, take the first character of each hash and enter the flag as FS{XXXX}.
+
+I did:
+md5sum hash_this.txt 
+f168f987c60ed708a082ab8aaf0de084  hash_this.txt
+sha1sum hash_this.txt 
+5ddadf797a24f5e309a793e29c8a929ccf49c5d7  hash_this.txt
+sha256sum hash_this.txt c7d585a098163ab3accea3c058c02ea7a714ce7306b2fedc1f78549819c2b51c  hash_this.txt
+sha512sum hash_this.txt e06909b67d8bd58ff031a61e7250ef40077699dba730aba8a50c2e72390543942df879ca1ffa99f253d814d504382512537214c269a1dfe97da9054ebe051183  hash_this.txt
