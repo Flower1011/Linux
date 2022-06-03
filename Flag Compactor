@@ -12,4 +12,4 @@ tar -xvf flag3
 file flag2
 mv flag2 flag2.gz
 cat flag2
-FS{so_many_archiving_utilities}
+
