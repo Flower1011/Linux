@@ -1,0 +1,12 @@
+Execute logging and capture it's traffic. Figure out what the client is doing and then do the same yourself to get the flag.
+
+I opened the file logging with wireshark to capture the traffic
+i clicked capture and used eth0 interface and hit start to capture traffic
+I then went into my kali and entered ./logging
+I went back to wireshark and then stopped capture
+I noticed packet 94 was highlighted in red and then I clicked follow TCP stream
+I saw the clue for listening and then used netcat on the IP address and port number given in packet 94
+netcat 52.1.103.48 60032 
+After running that command it asked for an access code and I found it inside of the follow TCP stream for packet 94 which was "following_the_green_machine"
+After entering the access code I was given a list of numbered options to choose from 
+I chose 3 because that option gives me the flag.
