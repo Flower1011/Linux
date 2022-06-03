@@ -1,0 +1,9 @@
+Download a special version of the white-hat-manifesto.txt from the shell server in /problems/secp-a--services_0_fc0be14ed4e13814029817801ff91f81. You must download this new copy (an older copy will not work). Then, serve this file up via HTTP at http://127.0.0.1/ethics/white-hat-manifesto.txt. Once complete, run services to get the flag.
+
+I went into the shell and hit ls -a in inside of /problems/secp-a--services_0_fc0be14ed4e13814029817801ff91f81
+I found .white-hat-manifesto.txt
+I then exited the shell and went back into my kali and then entered the following command
+scp flower1011@shell.fullstackacademy.com:/problems/secp-a--services_0_fc0be14ed4e13814029817801ff91f81/.white-hat-manifesto.txt /home/kali
+I then renamed .white-hat-manifesto.txt to just white-hat-manifesto.txt
+I then did mkdir ethics and moved white-hat-manifesto.txt into it
+I realized i needed to bind the iP address with the http server so I entered python3 -m http.server 80 -b 127.0.0.1 and then ran services in my other window
