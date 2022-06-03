@@ -1,0 +1,10 @@
+A flag is trapped. Can you crawl this spider's web to find it? The flag is trapped somewhere on this site.
+1. This will take forever if you try to search by hand.
+2. `curl` is not the only commandline html tool.
+
+wget http://shell.fullstackacademy.com:60028/
+cat index.html.1
+mkdir newdr
+./newdr
+wget -r http://shell.fullstackacademy.com:60028/
+grep -r "FS{" *
