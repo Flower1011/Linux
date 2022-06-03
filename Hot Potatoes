@@ -1,0 +1,9 @@
+When this thing cools down and we quit passing it to each other, I am going to smash it all up.
+
+Note: Note: the flag prefix is lowercase fs{...} on this challenge (and it's required).
+sx ybnob dy qod drsc pvkq iye kbo qysxq dy xoon dy psxn yed grkd cdbsxq rkcroc dy lo121740lp988l2225k313pk1p107mk1 kxn cebbyexn sd gsdr pc{...}.wsqrd kc govv cryg iye kvv dro voddobc. dro aesmu lbygx pyh tewzc yfob dro vkji nyq.
+
+in order to get this flag you are going to need to find out what string hashes to be121740bf988b2225a313fa1f107ca1 and surround it with fs{...}.might as well show you all the letters. the quick brown fox jumps over the lazy dog.
+
+decoded string using ROT13 amount 16 on https://gchq.github.io/CyberChef 
+then decoded the string given from the text on site https://crackstation.net/
