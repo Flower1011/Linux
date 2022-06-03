@@ -1,6 +1,0 @@
-Schedule timer.sh to run once a day at 10AM from /tmp (so you are scheduling /tmp/timer.sh to run). Once complete, run scheduling to get the flag.
-
-crontab -e
-00 10 * * * /tmp/timer.sh
-sudo chmod +x scheduling
-./scheduling
