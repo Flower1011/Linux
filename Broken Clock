@@ -1,0 +1,15 @@
+They say even a broken clock is right twice a day, but I prefer to only be right once! I also know what my favorite time to be stuck at would be. Schedule broken-clock to run every day at 1:37 PM from your favorite, world-write directory (cough/tmpcough). Instead of waiting ALL DAY for this magical time, simply run the binary to confirm you scheduled it correctly and receive the flag.
+
+NOTE: Don't change the binary name - broken-clock so is awesome who would want to change is anyways?
+
+(cp broken-clock /tmp/
+crontab
+sudo chmod +x broken-clock
+./broken-clock)
+
+wget broken-clock
+crontab -e
+37 13 * * * /tmp/broken-clock
+chmod +x broken-clock
+./broken-clock
+
