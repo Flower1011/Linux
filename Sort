@@ -1,0 +1,8 @@
+Find directory-list-2.3-medium.txt. Search this list for only the items that contain www, and output them into a new list. Then, sort this output in alphabetical order, and save just the first 20 results to a file named sort-answer.txt in /tmp. Once complete, run sort to get the flag.
+
+locate directory-list-2.3-medium.txt
+grep www /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt
+grep www /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt > filly.txt
+sort filly.txt | head -n 20 > sort-answer.txt
+sudo chmod +x sort
+./sort
