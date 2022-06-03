@@ -1,0 +1,24 @@
+It's time to make my heart sing! You know what my heart really loves? Musical sounds! My heart is just full of random musical sounds which is great... except... my heart is a little picky. It does not like anything that:
+
+Begins with a p
+Ends with a 7
+Contains an i
+Has 'ba du bop' in the name
+Especially that last one - my heart literally still cannot stomach the Hansons. Delete all those files and then run wild-thing to get your flag. You can find both the heart directory and this file on your VM in ~/labs/020-search.
+
+If you make a mistake, you can download a backup copy of heart.zip.
+
+cd heart
+ls
+ls p*
+rm p*
+ls
+ls *7
+rm *7
+ls *i*
+rm *i*
+ls
+rm -r *"ba du bop"*
+cd ..
+./wild-thing
+FS{you_really_do_make_everything_groovy}
