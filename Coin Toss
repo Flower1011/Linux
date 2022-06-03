@@ -1,0 +1,7 @@
+I'm not sure which part I like better - the begining of a journey or the end. So how about I just combine both. You can get this flag by combining the first 18 lines of coin-toss.txt with the last 19 lines of this file. You probably also want to strip out all those newlines to make the flag easier to read. As an additional challenge, try to solve this challenge in just one line without saving anything to a file. You can also find this file on your VM in ~/labs/030-filters.
+
+head -n 18 coin-toss.txt | tr -d '\n' > flag.txt
+cat flag.txt
+tail -n 19 coin-toss.txt | tr -d '\n' >>flag.txt
+cat flag.txt
+FS{heads_or_tails-I_rather_pick_both}
