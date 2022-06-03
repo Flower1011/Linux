@@ -1,0 +1,7 @@
+We captured this traffic. Can you find anything interesting? Tip: You are NOT looking for text in the packet capture.
+
+I opened the file packet-capture.pcapng with wireshark.
+I then went to file, export object and clicked on HTTP.
+In the text filter/search bar I entered flag and three items popped up.
+I saved each file and into my kali and ran them.
+the file named possibly_a_flag was the correct file where I was able to retreive the flag.
