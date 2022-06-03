@@ -1,0 +1,14 @@
+All this encoding is weak sauce; it's now time to get big with some real cryptography heavy lifting. I just cranked out a quick set of encryption. Do you have the strength to match me with some decryption? real_small_arms_cipher.txt
+Note:I provide you with p, q, and d on this problem, but I don't need too. Real Ns are way way way bigger.
+
+wget file
+cat real_small_arms_cipher.txt
+N = 2597887
+p = 787
+q = 3301
+1 mod r = 2593801
+d = 11953
+e = 217
+C = 2440673 1237060 2502246 2296577 574652 2296577 1346110 1413028 1259152 103749 793545 1258830 1019667 941406 1194997 1670586 722415 1016344 1960220 1346110 2409734 852647 1924133 1242438 861407 1053845 2514551 2382616 1136520  
+ 
+I entered the N modulus and the d key to and ciphertext message C in the designated areas
